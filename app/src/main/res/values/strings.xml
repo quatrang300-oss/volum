@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Âm Lượng Riêng</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">Điều chỉnh âm lượng</string>
+    <string name="notif_channel_desc">Giữ cho âm lượng riêng của từng ứng dụng luôn được áp dụng</string>
+    <string name="notif_title">Đang điều chỉnh âm lượng từng ứng dụng</string>
+    <string name="notif_text_count">Đang chỉnh riêng %1$d ứng dụng · chạm để mở</string>
+    <string name="notif_text_idle">Chạm để mở · dùng “Bảng nổi” để chỉnh nhanh</string>
+    <string name="notif_action_panel">Bảng nổi</string>
+    <string name="notif_action_stop">Tắt</string>
+
+    <!-- Main screen -->
+    <string name="switch_enable">Bật điều chỉnh âm lượng</string>
+    <string name="switch_overlay">Nút nổi chỉnh nhanh</string>
+    <string name="switch_overlay_hint">Hiện một nút tròn nhỏ trên màn hình. Khi đang chia đôi màn hình hoặc dùng cửa sổ nổi (VD: YouTube + TikTok), chạm vào nút để chỉnh âm lượng từng ứng dụng mà không phải thoát ra.</string>
+    <string name="list_title">Ứng dụng đang phát âm thanh</string>
+    <string name="list_empty_disabled">Hãy bật “Điều chỉnh âm lượng” để xem các ứng dụng đang phát âm thanh.</string>
+    <string name="list_empty_shizuku">Cần kết nối Shizuku trước (xem thẻ phía trên).</string>
+    <string name="list_empty_running">Chưa có ứng dụng nào phát âm thanh.\nHãy mở YouTube, TikTok… và phát video, ứng dụng sẽ hiện ở đây.</string>
+    <string name="reset_all">Đặt lại tất cả</string>
+    <string name="reset_all_title">Đặt lại âm lượng?</string>
+    <string name="reset_all_message">Tất cả ứng dụng sẽ trở về 100% và bỏ tắt tiếng.</string>
+    <string name="reset_all_confirm">Đặt lại</string>
+
+    <string name="app_state_playing">● Đang phát</string>
+    <string name="app_state_paused">Tạm dừng</string>
+    <string name="app_state_saved">Không phát · đã lưu cài đặt</string>
+    <string name="muted_short">Tắt</string>
+    <string name="action_mute">Tắt tiếng</string>
+    <string name="action_unmute">Bật tiếng</string>
+    <string name="unknown_app">Ứng dụng (UID %1$d)</string>
+
+    <!-- Status card -->
+    <string name="status_not_installed_title">Cần cài Shizuku</string>
+    <string name="status_not_installed_desc">Android không cho ứng dụng thường chỉnh âm lượng của ứng dụng khác. Shizuku (miễn phí) cấp quyền cần thiết mà không cần root hay máy tính. Chạm “Hướng dẫn” để xem cách làm.</string>
+    <string name="status_not_running_title">Shizuku chưa chạy</string>
+    <string name="status_not_running_desc">Mở Shizuku và nhấn “Bắt đầu” (qua Gỡ lỗi không dây). Sau mỗi lần khởi động lại máy cần làm lại bước này.</string>
+    <string name="status_too_old_title">Shizuku quá cũ</string>
+    <string name="status_too_old_desc">Hãy cập nhật Shizuku lên phiên bản mới nhất.</string>
+    <string name="status_no_permission_title">Cần cấp quyền Shizuku</string>
+    <string name="status_no_permission_desc">Chạm “Cấp quyền” rồi chọn “Cho phép mọi lúc”.</string>
+    <string name="status_not_privileged_title">Thiết bị chặn quyền âm thanh</string>
+    <string name="status_not_privileged_desc">Hệ thống không cho Shizuku đọc trình phát âm thanh trên máy này. Hãy thử khởi động Shizuku bằng quyền root nếu máy đã root.</string>
+    <string name="status_error_title">Có lỗi xảy ra</string>
+    <string name="status_error_desc">Không đọc được danh sách âm thanh: %1$s</string>
+    <string name="status_off_title">Đang tắt</string>
+    <string name="status_off_desc">Bật công tắc bên dưới để bắt đầu chỉnh âm lượng riêng cho từng ứng dụng.</string>
+    <string name="status_ready_title">Sẵn sàng</string>
+    <string name="status_ready_desc">Mở nhiều ứng dụng cùng lúc (chia đôi màn hình / cửa sổ nổi), rồi kéo thanh âm lượng hoặc tắt tiếng từng ứng dụng bên dưới.</string>
+    <string name="action_get_shizuku">Tải Shizuku</string>
+    <string name="action_open_shizuku">Mở Shizuku</string>
+    <string name="action_grant">Cấp quyền</string>
+    <string name="action_guide">Hướng dẫn</string>
+    <string name="action_privacy">Quyền riêng tư quảng cáo</string>
+    <string name="action_close">Đóng</string>
+    <string name="toast_need_shizuku">Cần kết nối Shizuku trước khi bật.</string>
+
+    <!-- Overlay -->
+    <string name="overlay_title">Âm lượng từng ứng dụng</string>
+    <string name="overlay_bubble_desc">Mở bảng âm lượng</string>
+    <string name="overlay_empty">Chưa có ứng dụng nào phát âm thanh.</string>
+    <string name="overlay_shizuku_off">Shizuku đang tắt. Mở Shizuku và nhấn “Bắt đầu”.</string>
+    <string name="overlay_perm_title">Cho phép hiển thị trên ứng dụng khác</string>
+    <string name="overlay_perm_message">Để dùng nút nổi khi chia đôi màn hình, hãy bật quyền “Hiển thị trên ứng dụng khác” cho Âm Lượng Riêng ở màn hình tiếp theo.</string>
+    <string name="overlay_perm_open">Mở cài đặt</string>
+
+    <!-- Help -->
+    <string name="help_title">Cách thiết lập (chỉ làm 1 lần)</string>
+    <string name="help_message">1. Cài Shizuku từ Google Play (nút “Tải Shizuku” bên dưới).\n\n2. Bật Tùy chọn nhà phát triển: Cài đặt → Thông tin điện thoại → chạm 7 lần vào “Số hiệu bản tạo” (Build number).\n\n3. Kết nối Wi-Fi, vào Tùy chọn nhà phát triển → bật “Gỡ lỗi không dây”.\n\n4. Mở Shizuku → “Ghép nối” (Pairing) → làm theo hướng dẫn để nhập mã ghép nối từ mục Gỡ lỗi không dây.\n\n5. Trong Shizuku nhấn “Bắt đầu” (Start).\n\n6. Quay lại Âm Lượng Riêng → “Cấp quyền” → “Cho phép mọi lúc”.\n\nCách dùng:\n• Mở YouTube và TikTok cùng lúc (chia đôi màn hình hoặc cửa sổ nổi).\n• Kéo thanh âm lượng của từng ứng dụng, hoặc chạm biểu tượng loa để tắt tiếng riêng ứng dụng đó.\n• Bật “Nút nổi chỉnh nhanh” để chỉnh ngay khi đang xem mà không cần thoát ra.\n• Nút âm lượng của điện thoại vẫn chỉnh tổng âm lượng như bình thường.\n\nLưu ý: sau khi khởi động lại điện thoại cần mở Shizuku và nhấn “Bắt đầu” lại (máy đã root thì không cần).</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.VolumeMixer" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_dark</item>
+        <item name="colorOnPrimary">#2A1F7A</item>
+        <item name="colorSecondary">@color/brand_accent</item>
+        <item name="colorOnSecondary">#00201D</item>
+    </style>
+</resources>

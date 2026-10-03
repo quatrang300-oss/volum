@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Volume Mixer</string>
+
+    <string name="notif_channel_name">Volume control</string>
+    <string name="notif_channel_desc">Keeps each app\'s own volume applied</string>
+    <string name="notif_title">Per-app volume is active</string>
+    <string name="notif_text_count">Adjusting %1$d app(s) · tap to open</string>
+    <string name="notif_text_idle">Tap to open · use “Panel” for quick control</string>
+    <string name="notif_action_panel">Panel</string>
+    <string name="notif_action_stop">Turn off</string>
+
+    <string name="switch_enable">Per-app volume control</string>
+    <string name="switch_overlay">Floating quick button</string>
+    <string name="switch_overlay_hint">Shows a small round button on screen. In split screen or pop-up view (e.g. YouTube + TikTok) tap it to change each app\'s volume without leaving.</string>
+    <string name="list_title">Apps playing audio</string>
+    <string name="list_empty_disabled">Turn on “Per-app volume control” to see apps that are playing audio.</string>
+    <string name="list_empty_shizuku">Connect Shizuku first (see the card above).</string>
+    <string name="list_empty_running">No app is playing audio yet.\nOpen YouTube, TikTok… and play something – it will show up here.</string>
+    <string name="reset_all">Reset all</string>
+    <string name="reset_all_title">Reset volumes?</string>
+    <string name="reset_all_message">All apps will go back to 100% and be unmuted.</string>
+    <string name="reset_all_confirm">Reset</string>
+
+    <string name="app_state_playing">● Playing</string>
+    <string name="app_state_paused">Paused</string>
+    <string name="app_state_saved">Not playing · saved setting</string>
+    <string name="muted_short">Muted</string>
+    <string name="action_mute">Mute</string>
+    <string name="action_unmute">Unmute</string>
+    <string name="unknown_app">App (UID %1$d)</string>
+
+    <string name="status_not_installed_title">Shizuku required</string>
+    <string name="status_not_installed_desc">Android doesn\'t let normal apps change other apps\' volume. Shizuku (free) grants the needed access without root or a computer. Tap “Guide” for the steps.</string>
+    <string name="status_not_running_title">Shizuku is not running</string>
+    <string name="status_not_running_desc">Open Shizuku and tap “Start” (via Wireless debugging). Repeat after each reboot.</string>
+    <string name="status_too_old_title">Shizuku is outdated</string>
+    <string name="status_too_old_desc">Please update Shizuku to the latest version.</string>
+    <string name="status_no_permission_title">Shizuku permission needed</string>
+    <string name="status_no_permission_desc">Tap “Grant” and choose “Allow all the time”.</string>
+    <string name="status_not_privileged_title">Audio access blocked</string>
+    <string name="status_not_privileged_desc">This device doesn\'t let Shizuku read audio players. If your phone is rooted, try starting Shizuku with root.</string>
+    <string name="status_error_title">Something went wrong</string>
+    <string name="status_error_desc">Could not read audio players: %1$s</string>
+    <string name="status_off_title">Off</string>
+    <string name="status_off_desc">Turn on the switch below to start controlling each app\'s volume.</string>
+    <string name="status_ready_title">Ready</string>
+    <string name="status_ready_desc">Open several apps at once (split screen / pop-up view), then drag each app\'s slider or mute it below.</string>
+    <string name="action_get_shizuku">Get Shizuku</string>
+    <string name="action_open_shizuku">Open Shizuku</string>
+    <string name="action_grant">Grant</string>
+    <string name="action_guide">Guide</string>
+    <string name="action_privacy">Ad privacy options</string>
+    <string name="action_close">Close</string>
+    <string name="toast_need_shizuku">Connect Shizuku before turning this on.</string>
+
+    <string name="overlay_title">Per-app volume</string>
+    <string name="overlay_bubble_desc">Open volume panel</string>
+    <string name="overlay_empty">No app is playing audio.</string>
+    <string name="overlay_shizuku_off">Shizuku is off. Open Shizuku and tap “Start”.</string>
+    <string name="overlay_perm_title">Allow display over other apps</string>
+    <string name="overlay_perm_message">To use the floating button in split screen, enable “Display over other apps” for App Volume Mixer on the next screen.</string>
+    <string name="overlay_perm_open">Open settings</string>
+
+    <string name="help_title">Setup (one time only)</string>
+    <string name="help_message">1. Install Shizuku from Google Play (“Get Shizuku” below).\n\n2. Enable Developer options: Settings → About phone → tap “Build number” 7 times.\n\n3. Connect to Wi-Fi, open Developer options → turn on “Wireless debugging”.\n\n4. Open Shizuku → “Pairing” → follow the steps to enter the pairing code from Wireless debugging.\n\n5. In Shizuku tap “Start”.\n\n6. Come back to this app → “Grant” → “Allow all the time”.\n\nHow to use:\n• Open YouTube and TikTok together (split screen or pop-up view).\n• Drag each app\'s slider, or tap its speaker icon to mute only that app.\n• Turn on “Floating quick button” to adjust while watching.\n• The phone\'s volume keys still control the overall volume.\n\nNote: after rebooting, open Shizuku and tap “Start” again (not needed on rooted phones).</string>
+</resources>

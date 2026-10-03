@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="status_ok_bg">#1E3A31</color>
+    <color name="status_warn_bg">#3D2E14</color>
+    <color name="status_text">#ECE6F0</color>
+    <color name="panel_bg">#25232B</color>
+</resources>

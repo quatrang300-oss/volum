@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand">#5B4CF0</color>
+    <color name="brand_dark">#C3BCFF</color>
+    <color name="brand_accent">#00B8A9</color>
+    <color name="status_ok_bg">#E4F6EF</color>
+    <color name="status_warn_bg">#FFF1DC</color>
+    <color name="status_text">#1C1B1F</color>
+    <color name="panel_bg">#FAF8FF</color>
+    <color name="launcher_bg">#5B4CF0</color>
+</resources>
